@@ -5,6 +5,8 @@
 /although the definitions are different the sequences are identical to KS's original piece/
 /I have no idea what kind of language this syntax is supposed to imitate but it has a function.end at the end so I'm assuming it's some functional programming one/
 
+/tacet 1/
+
 {
 set up()
 }
@@ -44,6 +46,8 @@ sound2
 sound3
 sound4
 }
+
+/tacet 2/
 
 set up ()
 {musician a = right channel; musician b = left channel
@@ -86,6 +90,8 @@ sound4
 {if musician a = sound1 then musician b = sound4}
 
 /Concert/
+
+/tacet3/
 
 set up ()
 {
@@ -162,6 +168,8 @@ musician a = interrupt musician b
 }
 
 function.end
+
+/tacet4/
 
 soudement () 
 {
