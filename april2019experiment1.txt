@@ -160,7 +160,54 @@ musician a = interrupt musician b
 
 function.end
 
-soundement ()
+soudement () 
 {
-sound1 (musician a = 
+sound1 (musician a = tapmetal) (musician b = tapplastic)
+sound2 (musician a = scratchmetal) (musician b = scratchplastic)
+sound3 (musician a = scrubmetal) (musician b = scrubplastic)
+sound4 (musician a = scrapemetal) (musician b = scrapeplastic)
+}
+
+run loop ()
+{
+sound1
+sound2
+sound3
+sound4
+}
+
+colour() /british spelling? or is that american? whatevs/
+{
+musician a = vbrightsound /hotpink!!!/
+musician b = vdarksound /ice king blue-black?/
+}
+
+runloop ()
+{
+sound1; darksound
+sound2; brightsound
+sound3; vbrightsound
+sound3; mildlybrightsound
+}
+
+levels ()
+{
+sound1 = quiet
+sound2 = loud
+sound3 = neither
+sound4 = either or
+/3 and 4 work pretty well for sound so I also kept those/
+}
+
+if...then()
+{
+if musician b = sound1 then musician a = lettre a elise
+}
+
+if...then()
+{
+if musician a = playoctave then musician b = (rightchannel)sound3
+}
+
+function.end
 
