@@ -20,6 +20,7 @@ sound1 (musician a = pitch; musician b = silence)
 sound2 (musician a = scratch; musician b = tap)
 sound3 (musician a = thud; musician b = scrub)
 sound2 (musician a = chord; musician b = scrape)
+/this is obviously easier with acoustic instruments and/or samplers but be creative for all electronic instruments, like what's the impulse/resonance for a thud v. a tap?/
 }
 
 loop()
@@ -97,6 +98,8 @@ sound1 (musician a = tapmetal) (musician b = tapplastic)
 sound2 (musician a = scratchmetal) (musician b = scratchplastic)
 sound3 (musician a = scrubmetal) (musician b = scrubplastic)
 sound4 (musician a = scrapemetal) (musician b = scrapeplastic)
+
+/the fun thing is this works (should work) with acoustic and electronic instruments, either via samples or via physical models/
 }
 
 loop ()
