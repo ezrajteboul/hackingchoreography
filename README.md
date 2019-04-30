@@ -1,4 +1,4 @@
 hackingchoreography
 ===================
 
-pseudo code for programming/choreographing dancers
+pseudo code for programming/choreographing musicians
