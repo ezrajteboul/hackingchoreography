@@ -1,0 +1,166 @@
+/hacking instrument choreography/
+/musical performance/
+/based on project by k. sicchio, with further inspiration from C. Fischer-Lochhead/
+/define movements for instrument but not sound (action rather than result) in a programmatic way/
+/although the definitions are different the sequences are identical to KS's original piece/
+/I have no idea what kind of language this syntax is supposed to imitate but it has a function.end at the end so I'm assuming it's some functional programming one/
+
+{
+set up()
+}
+
+musician a = left channel 
+musician b = right channel 
+
+}
+
+soundement ()
+
+sound1 (musician a = pitch; musician b = silence)
+sound2 (musician a = scratch; musician b = tap)
+sound3 (musician a = thud; musician b = scrub)
+sound2 (musician a = chord; musician b = scrape)
+}
+
+loop()
+{
+sound1
+sound2
+sound3
+sound4
+}
+
+run()
+{
+sound1
+sound4
+sound4
+sound1
+sound2
+sound3
+sound1
+sound2
+sound3
+sound4
+}
+
+set up ()
+{musician a = right channel; musician b = left channel
+}
+
+
+quality()
+{
+quality1 = soft
+quality2 = indirect
+quality3 = sudden
+quality4 = strong
+/funily enough these work for instrument playing just fine so I'm re-using them (is that ok?)/
+}
+
+
+{
+musician a function.switch(quality)
+musician b function.loop(quality)
+}
+
+rightchannel.leftchannel()
+sound1.leftchannel
+sound2.leftchannel
+sound3.leftchannel
+sound4.leftchannel
+}
+
+{ if musician a = leftchannel; then musician b = rightchannel;
+}
+
+run loop ()
+{
+sound1
+sound2
+sound3
+sound4
+}
+
+{if musician a = sound1 then musician b = sound4}
+
+/Concert/
+
+set up ()
+{
+musician a = leftchannel, leftchannel & rightchannel
+musician b = rightchannel, rightchannel & leftchannel
+
+soudement () 
+{
+sound1 (musician a = tapmetal) (musician b = tapplastic)
+sound2 (musician a = scratchmetal) (musician b = scratchplastic)
+sound3 (musician a = scrubmetal) (musician b = scrubplastic)
+sound4 (musician a = scrapemetal) (musician b = scrapeplastic)
+}
+
+loop ()
+{
+sound1
+sound2
+sound3
+sound4
+}
+
+run loop ()
+{
+sound4
+sound2
+}
+
+run loop()
+{
+sound1
+sound3
+sound4
+}
+
+if...then ()
+{
+if musician a (sound1) then musician b (move2);
+}
+
+rightchannel.leftchannel()
+{
+sound1.rightchannel
+sound2.rightchannel
+sound3.rightchannel
+sound4.leftchannel
+}
+
+run loop()
+{
+sound1
+sound2
+sound3
+sound4
+}
+
+quality()
+{
+quality1 = soft
+quality2 = indirect
+quality3 = sudden
+quality4 = strong
+}
+
+if...then()
+{
+if musician b = (rightchannel) then musician a = quality1}
+
+run loop()
+{
+musician a = interrupt musician b
+}
+
+function.end
+
+soundement ()
+{
+sound1 (musician a = 
+
