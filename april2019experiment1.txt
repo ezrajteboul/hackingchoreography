@@ -122,7 +122,7 @@ sound4
 
 if...then ()
 {
-if musician a (sound1) then musician b (move2);
+if musician a (sound1) then musician b (sound2);
 }
 
 rightchannel.leftchannel()
